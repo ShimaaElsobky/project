@@ -1,0 +1,82 @@
+/* General Reset */ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    direction: ltr;
+    /* left yo right */
+}
+/*Top Bar */
+.top bar {
+    background-color: #222;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+.top-bar .market-logo strong {
+    font-weight: bold;
+}
+.top-bar .buy-now {
+    background-color: #8bc34a;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.top-bar .buy-now:hover {
+    background-color: #7da637;
+}
+/* Hero Section */ 
+.hero {
+    background: url('your-background-imge.jpg') no-repeat center center/cover;
+    height: 80vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.logo .site-name {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.menu-icon {
+    font-size: 2em;
+    cursor: pointer;
+}
+/* Hero Contect */
+.hero-contect {
+    text-align: center;
+    margin-bottom: 100px;
+}
+.hero-contect h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+.hero-contect p {
+    font-size: 1.2em;
+}
